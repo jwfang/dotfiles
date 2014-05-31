@@ -1,5 +1,7 @@
+[user]
+	email = fangjunwu@yy.com
+	name = James Fang
 [color]
 	ui = auto
-[user]
-	name = James Fang
-	email = jamesf@none.no
+[push]
+	default = simple
