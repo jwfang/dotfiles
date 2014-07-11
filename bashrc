@@ -117,9 +117,6 @@ man() {
     man "$@"
 }
 
-export GOROOT=$HOME/go
-PATH=$GOROOT/bin:$PATH
-
 export EDITOR=vim
 
 set -o vi
