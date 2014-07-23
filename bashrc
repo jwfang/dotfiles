@@ -120,3 +120,8 @@ man() {
 export EDITOR=vim
 
 set -o vi
+
+
+if [ -d ~/bin ]; then
+    PATH=~/bin:${PATH}
+fi
