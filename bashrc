@@ -125,3 +125,6 @@ set -o vi
 if [ -d ~/bin ]; then
     PATH=~/bin:${PATH}
 fi
+
+[ -f /usr/bin/virtualenvwrapper_lazy.sh ] && . /usr/bin/virtualenvwrapper_lazy.sh
+
